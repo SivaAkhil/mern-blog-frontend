@@ -1,0 +1,83 @@
+.update-btn{
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(195, 72, 230);
+    background-color: #fbf9f9;
+  
+   
+}
+.update-btn:hover {
+  background: linear-gradient(to right, #8b5cf6, #ec4899, #6366f1);
+
+}
+
+/* Modal Styling */
+/* Modal */
+.modal {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust width as needed */
+    max-width: 400px; /* Set max-width for larger screens */
+    height: 250px;
+    margin: 0 auto; /* Center the modal */
+
+  }
+  
+  /* Modal Body */
+  .modal-body {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  
+  /* Button Styles */
+  .yes-button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    background-color: #f13939;
+    color: #fff;
+    
+  }
+  
+  .no-button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    border: 2px solid gray;
+    color: rgb(17, 16, 16);
+   
+  }
+  
+  
+  
+  /* Button Hover Effect */
+  .yes-button:hover {
+    filter: brightness(0.95);
+  }
+  .no-button:hover {
+    background-color: rgb(3, 61, 68);
+    color: #fff;
+  }
+  
+  .confirm-delete {
+    margin-bottom: 25px;
+    font-weight: 500;
+  }
+
+  .create-post-btn {
+    
+      padding: 6px;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background: linear-gradient(to right, #6366f1, #8b5cf6, #ec4899);
+      /* outline: 2px solid rgb(195, 72, 230); */
+      /* color: rgb(154, 31, 31); */
+     
+  
+  }

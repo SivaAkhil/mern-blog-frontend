@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+/* creatpost */
+.upload-img-btn {
+    /* background: linear-gradient(to right, #8b5cf6, #ec4899, #6366f1); */
+    padding: 10px;
+    color: black;
+    border: 2px solid #8b5cf6;
+}
+
+.ql-editor {
+    font-size: 1.05rem;
+}
+
+.publish-btn {
+    background: linear-gradient(to right, #8b5cf6, #ec4899, #6366f1);
+    padding: 8px;
+}
+
+.create-post-error {
+    background-color: #f4abb6;
+    color: rgb(162, 20, 20);
+    padding: 10px;
+}
+
+
+/* posts */
+
+.table-data {
+    color: black;
+}
+
+
+/* styles.css */
+/* styles.css */
+.container {
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 1rem;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #e2e8f0;
+    padding: 0.5rem;
+  }
+  
+  .table th {
+    background-color: #f8fafc;
+    font-weight: bold;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
+
+
+  /* postpage */
+  .post-content p {
+    margin-bottom: 0.5rem;
+  }
+
+  .post-content h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 1.5rem 0;
+  }
+  
+  .post-content h2 {
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    margin: 1.5rem 0;
+  }
+  
+  .post-content a {
+    color: rgb(73, 149, 199);
+    text-decoration: none;
+  }
+  
+  .post-content a:hover {
+    text-decoration: underline;
+  }
+
+  .post-category-btn {
+    background-color: rgb(4, 86, 86);
+    color: white;
+    padding: 5px;
+  }
+
+
+  /* commnet */
+.comment-model {
+ width: 300px;
+ margin: 0 auto;
+ box-shadow: 2px 1px 2px 1px grey;
+ padding: 10px;
+}
+  .delete-comment {
+    background-color: #ec4848;
+    padding: 5px;
+  }
+  .cancel-delete-comment {
+    padding: 5px;
+    border: 2px solid green;
+
+  }
+  
+
+  .home-page {
+    height: 80vh;
+    text-align: center;
+  }
+  .about-page {
+    height: 80vh;
+    text-align: center;
+  }
+  .projects-page {
+    height: 80vh;
+    text-align: center;
+  }

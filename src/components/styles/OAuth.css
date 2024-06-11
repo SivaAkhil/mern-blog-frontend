@@ -1,0 +1,15 @@
+.google-btn {
+    background-color: rgb(180, 87, 246);
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.google-btn:hover {
+    background-color: #6366f1;
+}

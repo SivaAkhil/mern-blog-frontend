@@ -1,0 +1,118 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem; */
+  border-bottom: 2px solid #e5e7eb;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.custom-link {
+  align-self: center;
+  white-space: nowrap;
+  font-size: 1rem;
+  margin-right: auto;
+}
+
+.custom-span {
+  padding: 0.5rem 1rem;
+  background: linear-gradient(to right, #6366f1, #8b5cf6, #ec4899);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.search-form {
+  margin-right: auto;
+}
+
+.custom-button {
+  width: 3rem;
+  height: 2.5rem;
+  margin-left: 1rem;
+  align-items: center;
+  border: none;
+}
+
+.change-signin {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.change-btn {
+  width: 3rem;
+  height: 2.5rem;
+}
+
+.sign-in-btn {
+  background: linear-gradient(to right, #6366f1, #8b5cf6);
+  color: white;
+}
+
+.links {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-collapse-links {
+  display: none; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-collapse-links.open {
+  display: flex; 
+  flex-direction: column;
+}
+
+.links.active {
+  font-weight: bold;
+}
+
+@media (min-width: 640px) {
+  .change-btn {
+    display: inline-block;
+  }
+
+  .navbar-collapse-links {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .navbar-collapse-links.open {
+    display: flex;
+  }
+}
+
+@media (max-width: 640px) {
+  .navbar-collapse-links {
+    display: none;
+  }
+
+  .navbar-collapse-links.open {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10; /* Ensure it is above other content */
+  }
+}
+
+
+.dropdown-menu {
+padding: 10px;  
+margin: 5px;
+line-height: 10px;
+}
+.username-dropdown {
+  margin-bottom: 12px;
+ 
+}
